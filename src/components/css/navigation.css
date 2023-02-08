@@ -1,0 +1,19 @@
+#navigation-bar {
+  justify-content: center;
+  max-height: fit-content;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: white; }
+  #navigation-bar a {
+    text-decoration: none;
+    color: black; }
+  #navigation-bar a:hover {
+    border-bottom: 1px solid black; }
+
+.nav {
+  width: 60vw;
+  list-style: none;
+  justify-content: space-around; }
+
+/*# sourceMappingURL=navigation.css.map */

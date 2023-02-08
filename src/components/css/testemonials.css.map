@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,qBAAqB;EACjB,KAAK,EAAE,IAAI;EACX,eAAe,EAAE,MAAM;EAEvB,qCAAe;IACZ,KAAK,EAAC,KAAK;IACX,MAAM,EAAE,KAAK;IACb,uCAAC;MACA,MAAM,EAAE,aAAa",
+"sources": ["../scss/testemonials.scss"],
+"names": [],
+"file": "testemonials.css"
+}

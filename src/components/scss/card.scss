@@ -1,0 +1,48 @@
+$card-width : 280px;
+%image{
+    max-height: 230px;
+    max-width: $card-width;
+}
+$red-border : 1px solid red;
+$card-bg-color :#E3E3E3;
+$markazi-text : Text;
+$price-color :#901111;
+
+.card{
+    max-width: $card-width;
+
+    min-width: $card-width;
+    height: fit-content;
+    background-color: $card-bg-color;
+    *{
+        padding: .5rem;
+       
+    }
+
+}
+
+.name-price{
+    display: flex;
+    justify-content: space-between;
+
+    h4{
+        font-size: 18px;
+        font-family: $markazi-text;
+        font-weight: bold;
+    }
+    p{
+        color: $price-color;
+    }
+    
+}
+.card-content{
+    p{
+        font-size: 16px;
+        font-weight: normal;
+    }
+    h2{
+        font-size: 18px;
+        font-weight: bold;
+
+    }
+}

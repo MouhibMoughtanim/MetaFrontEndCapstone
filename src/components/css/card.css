@@ -1,0 +1,26 @@
+.card {
+  max-width: 280px;
+  min-width: 280px;
+  height: fit-content;
+  background-color: #E3E3E3; }
+  .card * {
+    padding: .5rem; }
+
+.name-price {
+  display: flex;
+  justify-content: space-between; }
+  .name-price h4 {
+    font-size: 18px;
+    font-family: Text;
+    font-weight: bold; }
+  .name-price p {
+    color: #901111; }
+
+.card-content p {
+  font-size: 16px;
+  font-weight: normal; }
+.card-content h2 {
+  font-size: 18px;
+  font-weight: bold; }
+
+/*# sourceMappingURL=card.css.map */

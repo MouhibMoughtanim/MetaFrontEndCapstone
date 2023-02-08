@@ -1,0 +1,27 @@
+.highlight-section {
+  justify-content: flex-start;
+  margin-left: 5rem;
+  margin-right: 5rem; }
+
+.highlight-section {
+  margin-top: 189px;
+  flex-wrap: wrap; }
+
+.highlight-header {
+  width: 100%;
+  justify-content: space-around;
+  max-height: 72px; }
+  .highlight-header button {
+    min-height: 72px;
+    min-width: 210px;
+    background-color: #F4CE14;
+    border-radius: 8px;
+    font-size: 24px; }
+  .highlight-header h2 {
+    font-size: 64px; }
+
+.highlight-content {
+  width: 100%;
+  justify-content: center; }
+
+/*# sourceMappingURL=highlightSection.css.map */

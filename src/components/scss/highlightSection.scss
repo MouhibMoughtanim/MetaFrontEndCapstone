@@ -1,0 +1,38 @@
+$lemon : #F4CE14;
+$markazi-text : Text;
+$greensh : #445E57  ;
+$margin-value : 5rem;
+%center-item {
+    justify-content :flex-start;
+    margin-left: $margin-value;
+    margin-right: $margin-value;
+}
+$border-radius: 8px;
+$red-border : 1px solid red;
+
+.highlight-section{
+    margin-top: 189px;
+    flex-wrap: wrap;    
+    @extend %center-item;
+}
+.highlight-header{
+    width: 100%; 
+    justify-content :space-around;
+    max-height:72px;
+    button{
+        min-height: 72px;
+        min-width: 210px;
+        background-color: $lemon;
+        border-radius: $border-radius;
+        font-size: 24px;
+    }
+    h2{
+        font-size: 64px;
+    }
+}
+.highlight-content{
+     width: 100%;
+       justify-content :center;
+
+
+}

@@ -1,0 +1,41 @@
+.about-section {
+  justify-content: space-around;
+  align-items: center; }
+
+.upper, .lower {
+  width: 350px;
+  height: 350px;
+  position: absolute; }
+
+.about-section {
+  position: relative;
+  margin-top: 5rem;
+  min-height: 444px; }
+
+article:nth-child(1) {
+  align-self: flex-start;
+  padding: 2rem 0 2rem 0; }
+
+h1 {
+  font-size: 64px; }
+
+h3 {
+  font-size: 40px; }
+
+p {
+  margin-top: 2rem;
+  max-width: 300px;
+  font-size: 20px;
+  font-weight: normal; }
+
+.upper {
+  z-index: 1;
+  top: 3%;
+  right: 10%; }
+
+.lower {
+  z-index: 2;
+  bottom: 3%;
+  right: 25%; }
+
+/*# sourceMappingURL=about.css.map */

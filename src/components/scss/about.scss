@@ -1,0 +1,55 @@
+$lemon : #F4CE14;
+$markazi-text : Text;
+$greensh : #445E57  ;
+%center-item {
+    justify-content :space-around;
+    align-items: center;
+}
+$red-border : 1px solid red;
+$padding : 2rem;
+$margin-top: 2rem;
+$border-radius: 8px;
+%div{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+}
+
+.about-section{
+    position: relative;
+    margin-top: 5rem;
+    min-height: 444px;
+   @extend %center-item;
+    }   
+    article:nth-child(1){
+        
+        align-self: flex-start;
+        padding: $padding 0  $padding   0;
+    }
+    h1{
+        font-size: 64px;
+    }
+    h3{
+        font-size: 40px;
+    }
+    p{ 
+        margin-top:$margin-top;
+        max-width: 300px;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .upper{
+        @extend %div;
+        z-index: 1;
+        top: 3%;
+        right:10%;
+      
+    }
+    .lower{
+        @extend %div;
+        z-index: 2;
+        bottom: 3%;
+        right:25%;
+      
+    }

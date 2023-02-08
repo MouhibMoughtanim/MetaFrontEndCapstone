@@ -1,9 +1,10 @@
 import React from 'react'
+import './css/reset.css'
 
 export default function Navbar():JSX.Element {
   return (
-     <nav>
-        <ul>
+     <nav >
+        <ul className='flex nav'>
           <li>
             <a href="">Home</a>
           </li>

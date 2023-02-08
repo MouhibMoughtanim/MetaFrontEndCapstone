@@ -1,0 +1,10 @@
+.testemonials-content {
+  width: 100%;
+  justify-content: center; }
+  .testemonials-content div.rating-card {
+    width: 207px;
+    height: 207px; }
+    .testemonials-content div.rating-card * {
+      border: 1px solid red; }
+
+/*# sourceMappingURL=testemonials.css.map */
